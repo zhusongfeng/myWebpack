@@ -1,0 +1,36 @@
+{
+  "name": "myWebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --colors --mode=development",
+    "build": "webpack --mode=production",
+    "lint": "eslint ./src",
+    "lint-fix": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "less-loader": "^2.2.3",
+    "open-browser-webpack-plugin": "0.0.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "yargs": "^6.5.0"
+  }
+}
